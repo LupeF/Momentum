@@ -29,7 +29,7 @@ li {
 }
 
 body{
-    background-color: lightgrey;
+    background-color: rgb(213, 230, 236);
 }
 
 .flex-header{
@@ -58,22 +58,29 @@ form{
 section{
     text-align: left;
     margin-top: 4em;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
 
 section  p {
     padding-top: 1em;
     font-size: large;
+    line-height: 30px;
 }
 
-section  h2, h3{
+.secondsec h1, h3{
     padding-top: 1em;
     text-align: center;
-    
+}
+
+.secondsec h3{
+    padding-top: 15px;
 }
 
 label{
-     color: red;
-     /* padding-bottom: 5px; */
+     color: grey;
+     display: inline-block;
+     padding-bottom: 5px;
  }
 
 input{
@@ -81,7 +88,7 @@ input{
      height: 3.5em;
      border-radius: 5px;
      box-shadow: 1px 4px 5px gray;
-
+     margin-bottom: 2em;
     }
 
  
@@ -124,6 +131,4 @@ button{
     .page-container{
         max-width: 800px;
     }
-
-    
 }
